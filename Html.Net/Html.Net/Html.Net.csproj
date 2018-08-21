@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Elements\Base\Container.cs" />
+    <Compile Include="Elements\Base\Element.cs" />
+    <Compile Include="Elements\Common\DIVContainer.cs" />
+    <Compile Include="Elements\Common\HeaderLabel.cs" />
+    <Compile Include="Elements\Tag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
